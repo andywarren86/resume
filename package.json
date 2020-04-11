@@ -1,0 +1,17 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "My professional resume",
+  "scripts": {
+    "build": "tailwindcss build styles.css -o output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andywarren86/resume.git"
+  },
+  "author": "Andrew Slappendel",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^1.2.0"
+  }
+}
