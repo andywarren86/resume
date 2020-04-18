@@ -4,7 +4,7 @@
   "description": "My professional resume",
   "scripts": {
     "dev": "watch \"npm run build\" src",
-    "build": "tailwindcss build src/styles.css -o build/output.css"
+    "build": "tailwindcss build src/styles.css -o docs/output.css && copyfiles -f src/index.html docs"
   },
   "repository": {
     "type": "git",
@@ -16,6 +16,7 @@
     "tailwindcss": "^1.2.0"
   },
   "devDependencies": {
+    "copyfiles": "^2.2.0",
     "watch": "^1.0.2"
   }
 }
