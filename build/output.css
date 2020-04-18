@@ -13950,6 +13950,13 @@ li {
   margin-top: 0.5rem;
 }
 
+@media print {
+}
+
+@page {
+  margin: 0;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
